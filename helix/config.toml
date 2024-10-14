@@ -1,0 +1,13 @@
+theme = "catppuccin-mocha"
+
+[editor]
+line-number = "relative"
+cursorline = true
+scrolloff = 5
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.file-picker]
+hidden = false
