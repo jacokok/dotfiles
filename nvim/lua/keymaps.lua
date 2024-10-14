@@ -30,6 +30,15 @@ vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>", { desc = "Escape and Clear h
 -- save file
 vim.keymap.set({ "i", "x", "n", "s" }, "<C-s>", "<cmd>w<cr><esc>", { desc = "Save File" })
 
+-- Copy paste to clipboard
+vim.keymap.set({ "n", "v" }, "<leader>y", '"+y')
+vim.keymap.set({ "n", "v" }, "<leader>p", '"+p')
+vim.keymap.set({ "i", "c", "t" }, "<C-S-v>", function()
+	vim.api.nvim_paste(vim.fn.getreg("+"), true, -1)
+end)
+vim.keymap.set({ "n", "v" }, "<C-S-c>", '"+y')
+vim.keymap.set({ "n", "v" }, "<C-S-v>", '"+p')
+
 -- better indenting
 vim.keymap.set("v", "<", "<gv")
 vim.keymap.set("v", ">", ">gv")

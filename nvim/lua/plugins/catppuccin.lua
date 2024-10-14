@@ -9,6 +9,7 @@ return {
 				transparent_background = true,
 				term_colors = true,
 				integrations = {
+					alpha = true,
 					nvimtree = true,
 					treesitter = true,
 					mini = {
