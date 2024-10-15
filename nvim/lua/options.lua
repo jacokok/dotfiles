@@ -1,7 +1,3 @@
-vim.g.mapleader = " "
-vim.g.maplocalleader = " "
-vim.g.have_nerd_font = true
-
 local opt = vim.opt
 
 opt.number = true
