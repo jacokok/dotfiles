@@ -7,9 +7,13 @@ return {
 		"MunifTanjim/nui.nvim",
 	},
 	opts = {
+		close_if_last_window = true,
 		window = {
 			width = 40,
 			position = "right",
+		},
+		filesystem = {
+			hijack_netrw_behavior = "disabled",
 		},
 	},
 }
