@@ -29,7 +29,7 @@ return {
 		end,
 		formatters_by_ft = {
 			lua = { "stylua" },
-			nix = { "nixpkgs-fmt" },
+			nix = { "nixfmt" },
 			sh = { "shfmt" },
 			go = { "gofmt" },
 			javascript = { "prettier" },

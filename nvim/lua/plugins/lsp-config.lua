@@ -94,19 +94,37 @@ return {
 				dockerls = {},
 				docker_compose_language_service = {},
 				marksman = {},
-				yamlls = {},
-				jsonls = {},
+				yamlls = {
+					settings = {
+						redhat = { telemetry = { enabled = false } },
+						yaml = {
+							schemaStore = {
+								enable = false,
+								url = "",
+							},
+							schemas = require("schemastore").yaml.schemas(),
+							-- schemas = {
+							-- 	["https://json.schemastore.org/github-workflow.json"] = "/.github/workflows/*",
+							-- 	["https://json.schemastore.org/kustomization.json"] = "kustomization.{yml,yaml}",
+							-- 	["https://raw.githubusercontent.com/docker/compose/master/compose/config/compose_spec.json"] = "docker-compose*.{yml,yaml}",
+							-- },
+						},
+					},
+				},
+				jsonls = {
+					settings = {
+						json = {
+							schemas = require("schemastore").json.schemas(),
+							validate = { enable = true },
+						},
+					},
+				},
 				lua_ls = {
-					-- cmd = {...},
-					-- filetypes = { ...},
-					-- capabilities = {},
 					settings = {
 						Lua = {
 							completion = {
 								callSnippet = "Replace",
 							},
-							-- You can toggle below to ignore Lua_LS's noisy `missing-fields` warnings
-							-- diagnostics = { disable = { 'missing-fields' } },
 						},
 					},
 				},
