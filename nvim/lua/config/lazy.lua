@@ -1,4 +1,8 @@
 return {
+	default = { lazy = true },
+	install = {
+		colorscheme = { "catppuccin" },
+	},
 	ui = {
 		icons = vim.g.have_nerd_font and {} or {
 			cmd = "⌘",

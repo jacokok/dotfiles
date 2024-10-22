@@ -58,7 +58,14 @@ vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 --Barbar and buffers
 vim.keymap.set("n", "<S-h>", "<Cmd>BufferPrevious<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<S-l>", "<Cmd>BufferNext<CR>", { noremap = true, silent = true })
-vim.keymap.set("n", "<leader>bd", "<cmd>:bd<cr>", { desc = "Delete Buffer and Window" })
+vim.keymap.set("n", "<leader>bd", "<cmd>BufferClose<cr>", { desc = "Close Buffer" })
+vim.keymap.set("n", "<leader>bp", "<cmd>BufferPin<cr>", { desc = "Pin Buffer" })
+vim.keymap.set(
+	"n",
+	"<leader>bc",
+	"<cmd>BufferCloseAllButCurrentOrPinned<cr>",
+	{ desc = "Close all Buffer but current" }
+)
 
 -- Nvim Tree
 vim.keymap.set("n", "<leader>e", "<cmd>Neotree toggle<cr>", { noremap = true, silent = true })
@@ -67,3 +74,9 @@ vim.keymap.set("n", "<leader>e", "<cmd>Neotree toggle<cr>", { noremap = true, si
 -- Easily hit escape in terminal mode.
 vim.keymap.set("t", "<esc><esc>", "<c-\\><c-n>")
 vim.keymap.set({ "n", "t" }, "<C-/>", "<cmd>ToggleTerm<cr>", { desc = "Toggle Terminal" })
+
+--Git
+vim.keymap.set("n", "<leader>gb", "<cmd>Gitsigns toggle_current_line_blame<cr>", { desc = "Toggle blame line" })
+
+-- Open file explorer
+vim.keymap.set("n", "<leader>oo", open_in_folder(), { desc = open_in_folder_label(), silent = true })
