@@ -93,7 +93,7 @@ return {
 				bashls = {},
 				dockerls = {},
 				docker_compose_language_service = {},
-				marksman = {},
+				-- marksman = {},
 				yamlls = {
 					settings = {
 						redhat = { telemetry = { enabled = false } },
