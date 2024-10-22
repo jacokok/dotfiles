@@ -48,7 +48,8 @@ end)
 
 return {
 	font = wezterm.font("FiraCode Nerd Font"),
-	window_background_opacity = 0.95,
+	-- window_background_opacity = 0.95,
+	window_background_opacity = 1,
 	front_end = "WebGpu",
 	check_for_updates = false,
 	color_scheme = "Catppuccin Mocha",
