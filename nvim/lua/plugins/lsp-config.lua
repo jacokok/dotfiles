@@ -93,7 +93,8 @@ return {
 				bashls = {},
 				dockerls = {},
 				docker_compose_language_service = {},
-				-- marksman = {},
+				ts_ls = {},
+				svelte = {},
 				yamlls = {
 					settings = {
 						redhat = { telemetry = { enabled = false } },
@@ -141,6 +142,8 @@ return {
 				"csharpier",
 				"prettier",
 				"nixpkgs-fmt",
+				"markdownlint",
+				"svelte-language-server",
 			})
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 

@@ -16,6 +16,10 @@ return {
 				"query",
 				"vim",
 				"vimdoc",
+				"svelte",
+				"typescript",
+				"javascript",
+				"css",
 			},
 			auto_install = true,
 			highlight = {
