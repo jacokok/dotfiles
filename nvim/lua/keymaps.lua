@@ -79,4 +79,6 @@ vim.keymap.set({ "n", "t" }, "<C-/>", "<cmd>ToggleTerm<cr>", { desc = "Toggle Te
 vim.keymap.set("n", "<leader>gb", "<cmd>Gitsigns toggle_current_line_blame<cr>", { desc = "Toggle blame line" })
 
 -- Open file explorer
-vim.keymap.set("n", "<leader>oo", open_in_folder(), { desc = open_in_folder_label(), silent = true })
+vim.keymap.set("n", "<leader>oo", OpenInFolder(), { desc = OpenInFolderlabel(), silent = true })
+
+-- UI Toggle

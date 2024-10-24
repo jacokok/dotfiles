@@ -1,4 +1,4 @@
-function open_in_folder()
+function OpenInFolder()
 	local format = "<cmd>!xdg-open %s<cr>"
 	if vim.fn.has("mac") == 1 then
 		format = "<cmd>!open -a Finder.app %s<cr>"
@@ -6,7 +6,7 @@ function open_in_folder()
 	return string.format(format, vim.fn.expand("%:p:h"))
 end
 
-function open_in_folder_label()
+function OpenInFolderlabel()
 	if vim.fn.has("mac") == 1 then
 		return "Open current directory in Finder"
 	end
