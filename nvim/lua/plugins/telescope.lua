@@ -24,11 +24,17 @@ return {
 				mappings = {
 					i = {
 						["<C-q>"] = actions.close,
+						["<C-j>"] = actions.move_selection_next,
+						["<C-k>"] = actions.move_selection_previous,
+						["<C-d>"] = actions.delete_buffer,
 					},
 					n = {
 						["<C-q>"] = actions.close,
 						["q"] = actions.close,
 						["<leader>q"] = actions.close,
+						["<C-j>"] = actions.move_selection_next,
+						["<C-k>"] = actions.move_selection_previous,
+						["<C-d>"] = actions.delete_buffer,
 					},
 				},
 			},
@@ -51,6 +57,7 @@ return {
 		vim.keymap.set("n", "<leader>fw", builtin.grep_string, { desc = "[f]earch current [W]ord" })
 		vim.keymap.set("n", "<leader>fg", builtin.live_grep, { desc = "[f]earch by [G]rep" })
 		vim.keymap.set("n", "<leader>fd", builtin.diagnostics, { desc = "[f]earch [D]iagnostics" })
+		vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "[f]earch [B]buffers" })
 		vim.keymap.set("n", "<leader>fr", builtin.resume, { desc = "[f]earch [R]esume" })
 		vim.keymap.set("n", "<leader>f.", builtin.oldfiles, { desc = '[f]earch Recent Files ("." for repeat)' })
 		vim.keymap.set("n", "<leader><leader>", builtin.buffers, { desc = "[ ] Find existing buffers" })
