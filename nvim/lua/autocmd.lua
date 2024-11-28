@@ -20,3 +20,11 @@ vim.api.nvim_create_autocmd("TermOpen", {
 		vim.bo.filetype = "terminal"
 	end,
 })
+
+-- Load Snacks statuscolumn after nvim-treesitter loads. Crashes when set in options.lua
+vim.api.nvim_create_autocmd("User", {
+	pattern = "nvim-treesitter",
+	callback = function()
+		vim.opt.statuscolumn = [[%!v:lua.require'snacks.statuscolumn'.get()]]
+	end,
+})

@@ -41,6 +41,7 @@ return {
 			{ "<leader>c", group = "[C]ode", mode = { "n", "x" } },
 			{ "<leader>d", group = "[D]ocument" },
 			{ "<leader>n", group = "[N]otifications", icon = { icon = "", color = "green" } },
+			{ "<leader>u", group = "[U]i", icon = { icon = "", color = "purple" } },
 			{ "<leader>r", group = "[R]ename" },
 			{ "<leader>s", group = "[S]earch" },
 			{ "<leader>w", group = "[W]orkspace" },

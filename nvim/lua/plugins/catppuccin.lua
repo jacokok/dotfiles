@@ -16,7 +16,6 @@ return {
 						indentscope_color = "",
 					},
 					which_key = true,
-					fidget = true,
 					mason = true,
 				},
 			})

@@ -77,7 +77,9 @@ vim.keymap.set("n", "<leader>e", "<cmd>Neotree toggle<cr>", { noremap = true, si
 -- Terminal
 -- Easily hit escape in terminal mode.
 vim.keymap.set("t", "<esc><esc>", "<c-\\><c-n>")
-vim.keymap.set({ "n", "t" }, "<C-/>", "<cmd>ToggleTerm<cr>", { desc = "Toggle Terminal" })
+vim.keymap.set({ "n", "t" }, "<C-/>", function()
+	Snacks.terminal.toggle(nil, { win = { position = "float" } })
+end, { desc = "Toggle Terminal" })
 
 --Git
 vim.keymap.set("n", "<leader>gb", "<cmd>Gitsigns toggle_current_line_blame<cr>", { desc = "Toggle blame line" })
@@ -87,6 +89,12 @@ end, { desc = "Open Git Repo in Browser" })
 vim.keymap.set("n", "<leader>gg", function()
 	Snacks.lazygit()
 end, { desc = "Lazygit" })
+vim.keymap.set("n", "<leader>gl", function()
+	Snacks.lazygit.log()
+end, { desc = "Lazygit Log" })
+vim.keymap.set("n", "<leader>gf", function()
+	Snacks.lazygit.log_file()
+end, { desc = "Lazygit Log File" })
 
 -- Open file explorer
 vim.keymap.set("n", "<leader>oo", OpenInFolder(), { desc = OpenInFolderlabel(), silent = true })
@@ -98,5 +106,3 @@ end, { desc = "Hide Notifications" })
 vim.keymap.set("n", "<leader>nh", function()
 	Snacks.notifier.show_history()
 end, { desc = "Notification History" })
-
--- UI Toggle
