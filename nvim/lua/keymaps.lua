@@ -55,17 +55,21 @@ vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" }
 -- Oil
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
---Barbar and buffers
-vim.keymap.set("n", "<S-h>", "<Cmd>BufferPrevious<CR>", { noremap = true, silent = true })
-vim.keymap.set("n", "<S-l>", "<Cmd>BufferNext<CR>", { noremap = true, silent = true })
-vim.keymap.set("n", "<leader>bd", "<cmd>BufferClose<cr>", { desc = "Close Buffer" })
-vim.keymap.set("n", "<leader>bp", "<cmd>BufferPin<cr>", { desc = "Pin Buffer" })
-vim.keymap.set(
-	"n",
-	"<leader>bc",
-	"<cmd>BufferCloseAllButCurrentOrPinned<cr>",
-	{ desc = "Close all Buffer but current" }
-)
+-- buffers
+-- TODO: use other way to switch between buffers
+-- vim.keymap.set("n", "<S-h>", "<Cmd>BufferPrevious<CR>", { noremap = true, silent = true })
+-- vim.keymap.set("n", "<S-l>", "<Cmd>BufferNext<CR>", { noremap = true, silent = true })
+-- vim.keymap.set("n", "<leader>bp", "<cmd>BufferPin<cr>", { desc = "Pin Buffer" })
+
+vim.keymap.set("n", "<leader>bd", function()
+	Snacks.bufdelete()
+end, { desc = "Close Buffer" })
+vim.keymap.set("n", "<leader>ba", function()
+	Snacks.bufdelete.all()
+end, { desc = "Close All Buffers" })
+vim.keymap.set("n", "<leader>bc", function()
+	Snacks.bufdelete.other()
+end, { desc = "Close Other Buffers" })
 
 -- Nvim Tree
 vim.keymap.set("n", "<leader>e", "<cmd>Neotree toggle<cr>", { noremap = true, silent = true })
@@ -77,8 +81,22 @@ vim.keymap.set({ "n", "t" }, "<C-/>", "<cmd>ToggleTerm<cr>", { desc = "Toggle Te
 
 --Git
 vim.keymap.set("n", "<leader>gb", "<cmd>Gitsigns toggle_current_line_blame<cr>", { desc = "Toggle blame line" })
+vim.keymap.set("n", "<leader>go", function()
+	Snacks.gitbrowse()
+end, { desc = "Open Git Repo in Browser" })
+vim.keymap.set("n", "<leader>gg", function()
+	Snacks.lazygit()
+end, { desc = "Lazygit" })
 
 -- Open file explorer
 vim.keymap.set("n", "<leader>oo", OpenInFolder(), { desc = OpenInFolderlabel(), silent = true })
+
+-- Notifications
+vim.keymap.set("n", "<leader>nd", function()
+	Snacks.notifier.hide()
+end, { desc = "Hide Notifications" })
+vim.keymap.set("n", "<leader>nh", function()
+	Snacks.notifier.show_history()
+end, { desc = "Notification History" })
 
 -- UI Toggle

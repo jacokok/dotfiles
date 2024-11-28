@@ -1,7 +1,7 @@
 return {
-	"topaxi/gh-actions.nvim",
+	"topaxi/pipeline.nvim",
 	keys = {
-		{ "<leader>gh", "<cmd>GhActions<cr>", desc = "Open Github Actions" },
+		{ "<leader>gh", "<cmd>Pipeline<cr>", desc = "Open Pipeline" },
 	},
 	opts = {},
 }
