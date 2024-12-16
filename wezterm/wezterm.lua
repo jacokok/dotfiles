@@ -65,6 +65,7 @@ return {
 	initial_rows = 50,
 	initial_cols = 200,
 	enable_wayland = true,
+	max_fps = 166,
 	window_padding = {
 		top = 0,
 		-- top = "0.5cell",
