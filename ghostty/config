@@ -1,0 +1,55 @@
+# Theme
+theme = catppuccin-mocha
+
+# Font
+font-family = FiraCode Nerd Font
+font-size = 14
+
+# Cursor
+cursor-style = block
+cursor-style-blink = false
+
+
+# background-opacity = 0.9
+# window-decoration = false
+window-theme = ghostty
+# adw-toolbar-style = flat
+# gtk-wide-tabs = false
+
+window-height = 45
+window-width = 200
+
+auto-update = off
+bold-is-bright = true
+
+shell-integration-features = no-cursor,sudo,no-title
+
+# Keybinds
+keybind = ctrl+shift+h=previous_tab
+keybind = ctrl+shift+l=next_tab
+keybind = ctrl+shift+[=move_tab:-1
+keybind = ctrl+shift+]=move_tab:1
+
+keybind = super+i=toggle_window_decorations
+keybind = super+shift+m=toggle_split_zoom
+
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:bottom
+keybind = ctrl+k=goto_split:top
+keybind = ctrl+l=goto_split:right
+keybind = ctrl+shift+j=new_split:down
+keybind = ctrl+shift+k=new_split:right
+
+keybind = ctrl+shift+up=resize_split:up,10
+keybind = ctrl+shift+down=resize_split:down,10
+keybind = ctrl+shift+left=resize_split:left,10
+keybind = ctrl+shift+right=resize_split:right,10
+
+keybind = ctrl+shift+nine=scroll_to_top
+keybind = ctrl+shift+zero=scroll_to_bottom
+# keybind = shift+~=text:\r
+
+keybind = ctrl+enter=text:\r
+keybind = shift+enter=text:\r
+keybind = ctrl+shift+enter=text:\r
+
