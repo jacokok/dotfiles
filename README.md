@@ -16,3 +16,9 @@ NVIM_APPNAME=nvim_test nvim
 ```bash
 wezterm --config-file ./wezterm/wezterm.lua
 ```
+
+## Ghostty
+
+```bash
+XDG_CONFIG_HOME=/home/doink/projects/dotfiles ghostty
+```
