@@ -22,7 +22,7 @@ window-width = 200
 auto-update = off
 bold-is-bright = true
 
-shell-integration-features = no-cursor,sudo,title
+shell-integration-features = no-cursor,sudo,no-title
 
 # Keybinds
 keybind = ctrl+shift+h=previous_tab
