@@ -16,7 +16,7 @@ window-theme = ghostty
 # adw-toolbar-style = flat
 # gtk-wide-tabs = false
 
-window-height = 45
+window-height = 55
 window-width = 200
 
 auto-update = off

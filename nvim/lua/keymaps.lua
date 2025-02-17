@@ -72,7 +72,8 @@ vim.keymap.set("n", "<leader>bc", function()
 end, { desc = "Close Other Buffers" })
 
 -- Nvim Tree
-vim.keymap.set("n", "<leader>e", "<cmd>Neotree toggle<cr>", { noremap = true, silent = true })
+-- vim.keymap.set("n", "<leader>e", "<cmd>Neotree toggle<cr>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>e", "<cmd>lua Snacks.explorer()<cr>", { desc = "Toggle Explorer" })
 
 -- Terminal
 -- Easily hit escape in terminal mode.

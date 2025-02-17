@@ -32,6 +32,25 @@ return {
 		win = {
 			border = "rounded",
 		},
+		scroll = { enabled = true },
+		image = { enabled = true },
+		-- picker = { enabled = true },
+
+		picker = {
+			sources = {
+				explorer = {
+					layout = {
+						layout = { position = "right" },
+					},
+					follow_file = false,
+					jump = { close = false },
+					supports_live = false,
+				},
+			},
+		},
+
+		explorer = { enabled = true },
+		quickfile = { enabled = true },
 	},
 	config = function(_, opts)
 		require("snacks").setup(opts)
