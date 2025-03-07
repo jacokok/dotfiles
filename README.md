@@ -22,3 +22,9 @@ wezterm --config-file ./wezterm/wezterm.lua
 ```bash
 XDG_CONFIG_HOME=/home/doink/projects/dotfiles ghostty
 ```
+
+## Helix
+
+```bash
+hx -c ./helix/config.toml
+```

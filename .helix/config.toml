@@ -11,3 +11,7 @@ insert = "bar"
 
 [editor.file-picker]
 hidden = false
+
+[keys.normal]
+C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
+# - = [":new", ":insert-output yazi", ":buffer-close!", ":redraw"]

@@ -1,0 +1,10 @@
+[[language]]
+name = "nix"
+auto-format = true
+formatter = { command = "nixfmt" }
+language-servers = ["nil", "nixd"]
+
+[[language]]
+name = "toml"
+auto-format = true
+language-servers = ["taplo"]
