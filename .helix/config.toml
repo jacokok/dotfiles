@@ -14,4 +14,9 @@ hidden = false
 
 [keys.normal]
 C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
-# - = [":new", ":insert-output yazi", ":buffer-close!", ":redraw"]
+- = [
+  ':sh rm -f /tmp/yazi-path',
+  ':insert-output /home/doink/Downloads/yazi-x86_64-unknown-linux-gnu/yazi %{buffer_name} --chooser-file=/tmp/yazi-path',
+  ":open %sh{cat /tmp/yazi-path}",
+  ":redraw",
+]
