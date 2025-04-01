@@ -11,12 +11,6 @@ ln -s nvim/ ~/.config/nvim_test
 NVIM_APPNAME=nvim_test nvim
 ```
 
-## Wezterm
-
-```bash
-wezterm --config-file ./wezterm/wezterm.lua
-```
-
 ## Ghostty
 
 ```bash
