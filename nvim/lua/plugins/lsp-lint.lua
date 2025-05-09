@@ -5,7 +5,7 @@ return {
 		config = function()
 			local lint = require("lint")
 			lint.linters_by_ft = {
-				markdown = { "markdownlint" },
+				markdown = { "markdownlint-cli2" },
 				json = { "jsonlint" },
 			}
 
@@ -14,6 +14,7 @@ return {
 				group = lint_augroup,
 				callback = function()
 					require("lint").try_lint()
+					-- require("lint").try_lint("cspell")
 				end,
 			})
 		end,
