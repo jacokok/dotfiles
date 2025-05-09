@@ -82,7 +82,7 @@ vim.keymap.set({ "n", "t" }, "<C-/>", function()
 end, { desc = "Toggle Terminal" })
 
 --Git
-vim.keymap.set("n", "<leader>gb", "<cmd>Gitsigns toggle_current_line_blame<cr>", { desc = "Toggle blame line" })
+vim.keymap.set("n", "<leader>gb", function() Snacks.git.blame_line() end, { desc = "Git blame" })
 vim.keymap.set("n", "<leader>go", function()
 	Snacks.gitbrowse()
 end, { desc = "Open Git Repo in Browser" })
