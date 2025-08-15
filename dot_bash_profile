@@ -6,6 +6,6 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # User specific environment and startup programs
-EDITOR=hx
+export EDITOR=hx
 
 alias pm="pnpm"

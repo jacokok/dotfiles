@@ -1,0 +1,42 @@
+[commit]
+	gpgSign = true
+
+[core]
+	editor = "hx"
+	# pager = "delta"
+
+# [delta]
+	# features = "catppuccin-mocha"
+	# line-numbers = true
+	# navigate = true
+	# side-by-side = true
+
+[gpg]
+	format = "openpgp"
+
+# [gpg "openpgp"]
+	# program = "/nix/store/m7b03yjgsang1kws4lwhzk0dr0dkrjwf-gnupg-2.4.8/bin/gpg"
+
+[init]
+	defaultBranch = "main"
+
+# [interactive]
+	# diffFilter = "/nix/store/caa8kimad68qfr8sz6w95raab2nywn6b-delta-0.18.2/bin/delta --color-only"
+
+[pull]
+	rebase = true
+
+[rebase]
+	autosquash = true
+	autostash = true
+
+[tag]
+	gpgSign = true
+
+[user]
+	email = "kokjaco2@gmail.com"
+	name = "Jaco Kok"
+	signingKey = "7ABD453C60720B82"
+
+# [include]
+	# path = "/nix/store/4hwv4d8x29hybdflmk9phvqm1gqlqr4c-catppuccin-delta-0/catppuccin.gitconfig"
