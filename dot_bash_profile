@@ -9,3 +9,5 @@ fi
 export EDITOR=hx
 
 alias pm="pnpm"
+
+if [ -e /home/doink/.nix-profile/etc/profile.d/nix.sh ]; then . /home/doink/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
