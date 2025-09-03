@@ -1,0 +1,5 @@
+[[language]]
+name = "toml"
+auto-format = true
+formatter = { command = "taplo", args = ["fmt", "-"] }
+language-servers = ["taplo"]
