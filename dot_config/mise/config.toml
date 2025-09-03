@@ -2,3 +2,6 @@
 node = "latest"
 pnpm = "latest"
 usage = "latest"
+
+[settings]
+experimental = true
