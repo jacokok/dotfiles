@@ -23,4 +23,3 @@ unset rc
 
 eval "$(starship init bash)"
 eval "$(~/.local/bin/mise activate bash)"
-eval "$(direnv hook bash)"
