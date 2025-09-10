@@ -1,4 +1,6 @@
 [tools]
+gh = "latest"
+lazydocker = "latest"
 node = "latest"
 pnpm = "latest"
 usage = "latest"
