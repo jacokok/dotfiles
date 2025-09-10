@@ -1,0 +1,13 @@
+# see https://github.com/sigoden/aichat/blob/main/config.example.yaml
+
+model: github:gpt-4.1
+
+clients:
+- type: openai-compatible
+  name: github
+  api_base: https://api.githubcopilot.com
+  patch:
+    chat_completions:
+      '.*':
+        headers:
+          Copilot-Integration-Id: vscode-chat

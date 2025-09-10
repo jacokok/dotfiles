@@ -1,9 +1,11 @@
 [tools]
+aichat = "latest"
 gh = "latest"
 lazydocker = "latest"
 node = "latest"
 pnpm = "latest"
 usage = "latest"
+"github:wwmoraes/cocopilot" = { version = "latest", bin_path = "usr/bin/bin" }
 
 [settings]
 experimental = true
