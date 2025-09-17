@@ -1,5 +1,5 @@
 # Theme
-theme = catppuccin-mocha
+theme = Catppuccin Mocha
 
 # Font
 font-family = FiraCode Nerd Font
@@ -11,11 +11,7 @@ cursor-style-blink = false
 
 
 # background-opacity = 0.9
-# window-decoration = false
 window-theme = ghostty
-# adw-toolbar-style = flat
-# gtk-wide-tabs = false
-
 window-height = 55
 window-width = 200
 
