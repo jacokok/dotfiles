@@ -22,3 +22,13 @@ gui:
   
   authorColors:
     '*': '#b4befe'
+
+# customCommands:
+#   - key: "<c-a>"
+#     command: "env GITHUB_API_KEY='$(cocopilot)' git diff --cached | aichat --prompt 'Generate a clear and concise commit message. Follow the conventional commit message format.'"
+#     context: "files"
+#     loadingText: "Generating commit message..."
+#     description: "Generating commit message with AI"
+#     showOutput: true
+#     outputTitle: "Commit Message (Copied)"
+#     background: true
