@@ -5,6 +5,7 @@ node = "latest"
 pnpm = "latest"
 usage = "latest"
 opencode = "latest"
+"github:lusingander/serie" = "latest"
 
 [settings]
 experimental = true

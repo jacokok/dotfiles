@@ -3,25 +3,12 @@
 
 [core]
 	editor = "hx"
-	# pager = "delta"
-
-# [delta]
-	# features = "catppuccin-mocha"
-	# line-numbers = true
-	# navigate = true
-	# side-by-side = true
 
 [gpg]
 	format = "openpgp"
 
-# [gpg "openpgp"]
-	# program = "/nix/store/m7b03yjgsang1kws4lwhzk0dr0dkrjwf-gnupg-2.4.8/bin/gpg"
-
 [init]
 	defaultBranch = "main"
-
-# [interactive]
-	# diffFilter = "/nix/store/caa8kimad68qfr8sz6w95raab2nywn6b-delta-0.18.2/bin/delta --color-only"
 
 [pull]
 	rebase = true
@@ -38,5 +25,15 @@
 	name = "Jaco Kok"
 	signingKey = "7ABD453C60720B82"
 
-# [include]
-	# path = "/nix/store/4hwv4d8x29hybdflmk9phvqm1gqlqr4c-catppuccin-delta-0/catppuccin.gitconfig"
+[delta]
+  minus-style                   = syntax "#4a272f"
+  minus-non-emph-style          = syntax "#4a272f"
+  minus-emph-style              = syntax "#713137"
+  minus-empty-line-marker-style = syntax "#4a272f"
+  line-numbers-minus-style      = "#914c54"
+  plus-style                    = syntax "#243e4a"
+  plus-non-emph-style           = syntax "#243e4a"
+  plus-emph-style               = syntax "#2c5a66"
+  plus-empty-line-marker-style  = syntax "#243e4a"
+  line-numbers-plus-style       = "#449dab"
+  line-numbers-zero-style       = "#3b4261"
