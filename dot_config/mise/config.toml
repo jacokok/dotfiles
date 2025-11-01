@@ -6,6 +6,7 @@ pnpm = "latest"
 usage = "latest"
 opencode = "latest"
 "github:lusingander/serie" = "latest"
+"github:byron/dua-cli" = "latest"
 
 [settings]
 experimental = true
