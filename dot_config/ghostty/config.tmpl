@@ -13,8 +13,11 @@ cursor-style-blink = false
 
 # background-opacity = 0.9
 window-theme = ghostty
+
+{{ if eq .chezmoi.hostname "doink-pc" }}
 window-height = 55
 window-width = 200
+{{ end }}
 
 auto-update = off
 bold-is-bright = true
