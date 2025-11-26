@@ -4,9 +4,10 @@ lazydocker = "latest"
 node = "latest"
 pnpm = "latest"
 usage = "latest"
-opencode = "latest"
 "github:lusingander/serie" = "latest"
 "github:byron/dua-cli" = "latest"
+"github:sst/opencode" = "latest"
+yazi = "latest"
 
 [settings]
 experimental = true

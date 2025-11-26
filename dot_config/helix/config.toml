@@ -24,8 +24,11 @@ A-J = ["extend_to_line_bounds", "yank", "paste_after"]
 A-K = ["extend_to_line_bounds", "yank", "paste_before"]
 C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
 - = [
-  ':sh rm -f /tmp/yazi-path',
-  ':insert-output yazi %{buffer_name} --chooser-file=/tmp/yazi-path',
-  ":open %sh{cat /tmp/yazi-path}",
-  ":redraw",
+  ':sh rm -f /tmp/unique-file',
+  ':sh rm -f /tmp/unique-cwd-file',
+  ":insert-output yazi --chooser-file=/tmp/unique-file --cwd-file=/tmp/unique-cwd-file",
+  ':insert-output echo "\x1b[?1049h\x1b[?2004h" > /dev/tty',
+  ':open %sh{cat /tmp/unique-file}',
+  ':cd %sh{cat /tmp/unique-cwd-file}',
+  ':redraw',
 ]
