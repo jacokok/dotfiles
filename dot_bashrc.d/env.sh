@@ -1,2 +1,3 @@
 export ELECTRON_OZONE_PLATFORM_HINT=auto
 export EDITOR=hx
+export LAUNCH_EDITOR=zed

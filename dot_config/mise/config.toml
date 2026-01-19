@@ -8,6 +8,8 @@ usage = "latest"
 "github:byron/dua-cli" = "latest"
 "github:sst/opencode" = "latest"
 yazi = "latest"
+"npm:@google/gemini-cli" = "latest"
+"github:alexpasmantier/television" = "latest"
 
 [settings]
 experimental = true
