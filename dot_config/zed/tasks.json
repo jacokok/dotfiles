@@ -1,0 +1,52 @@
+// Project tasks configuration. See https://zed.dev/docs/tasks for documentation.
+[
+  {
+    "label": "Television File Finder",
+    "command": "zed \"$(tv files)\"",
+    "hide": "always",
+    "allow_concurrent_runs": true,
+    "use_new_terminal": true,
+    "reveal_target": "center",
+  },
+  {
+    "label": "Lazy Git",
+    "command": "lazygit",
+    "hide": "on_success",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal_target": "center",
+  },
+  {
+    "label": "Lazy Docker",
+    "command": "lazydocker",
+    "hide": "on_success",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal_target": "center",
+  },
+  {
+    "label": "Serie",
+    "command": "serie",
+    "hide": "on_success",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal_target": "center",
+    "reveal": "never",
+  },
+  {
+    "label": "Github Browse",
+    "command": "gh browse && echo opening in browser...",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": true,
+    "reveal": "never",
+    "hide": "on_success",
+  },
+  {
+    "label": "Create C# File $ZED_FILENAME",
+    "command": "TARGET_DIR=\"$ZED_RELATIVE_DIR\"; ABS_PATH=$(realpath \"$TARGET_DIR\" 2>/dev/null || echo \"$TARGET_DIR\"); ROOT_NS=\"\"; CURRENT=\"$ABS_PATH\"; while [[ \"$CURRENT\" != \"/\" && -n \"$CURRENT\" ]]; do PROJECT_FILE=$(ls \"$CURRENT\"/*.csproj 2>/dev/null | head -n 1); if [[ -f \"$PROJECT_FILE\" ]]; then ROOT_NS=$(sed -nE 's/.*<RootNamespace>(.*)<\\/RootNamespace>.*/\\1/p' \"$PROJECT_FILE\" | head -n 1); if [[ -n \"$ROOT_NS\" ]]; then RELATIVE_SUBDIR=\"${ABS_PATH#$CURRENT}\"; RELATIVE_SUBDIR=\"${RELATIVE_SUBDIR#/}\"; if [[ -n \"$RELATIVE_SUBDIR\" ]]; then SUB_NS=$(echo \"$RELATIVE_SUBDIR\" | sed -e 's/[\\/]/./g' -e 's/[^[:alnum:].]/_/g'); NS=\"${ROOT_NS}.${SUB_NS}\"; else NS=\"$ROOT_NS\"; fi; break; fi; fi; CURRENT=\"$(dirname \"$CURRENT\")\"; done; if [[ -z \"$NS\" ]]; then NS=$(echo \"$TARGET_DIR\" | sed -E -e 's/.*[\\/](repos|src|test|tests|desktop|projects)[\\/]//I' -e 's/[\\/]/./g' -e 's/[^[:alnum:].]/_/g'); fi; fname=$(basename \"${ZED_FILE}\" | sed 's/\\.[^.]*$//'); echo -e \"namespace $NS;\\n\\npublic class $fname {\\n    \\n}\" > ${ZED_FILE}",
+    "allow_concurrent_runs": true,
+    "tags": ["main"],
+    "reveal": "never",
+    "hide": "on_success",
+  },
+]
