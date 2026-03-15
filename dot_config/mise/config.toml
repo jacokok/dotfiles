@@ -3,13 +3,25 @@ gh = "latest"
 lazydocker = "latest"
 node = "latest"
 pnpm = "latest"
-usage = "latest"
 "github:lusingander/serie" = "latest"
 "github:byron/dua-cli" = "latest"
-"github:sst/opencode" = "latest"
 yazi = "latest"
-"npm:@google/gemini-cli" = "latest"
 "github:alexpasmantier/television" = "latest"
+rust = "latest"
+"npm:@playwright/cli" = "latest"
+"npm:agent-browser" = "latest"
 
 [settings]
 experimental = true
+
+[tasks.update]
+description = "Update system and mise"
+depends = ["dnf", "miseup"]
+
+[tasks.dnf]
+run = "sudo dnf up -y"
+hide = true
+
+[tasks.miseup]
+run = "mise up -y"
+hide = true
