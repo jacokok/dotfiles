@@ -1,2 +1,5 @@
 [bootstrap.packages]
 "brew:git" = "latest"
+"brew:ffmpeg" = "latest"
+"brew:yt-dlp" = "latest"
+"brew-cask:audacity" = "latest"
