@@ -47,16 +47,52 @@
           "default": false
         },
         {
-          "os": [
-            "macos"
-          ],
-          "profile": null,
+          "os": [],
+          "profile": "macos",
           "default": false
         }
       ]
+    },
+    {
+      "path": "home/.config/hypr/autostart.lua",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "home/.config/hypr/bindings.lua",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "home/.config/hypr/hyprland.lua",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "home/.config/hypr/input.lua",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "home/.config/hypr/looknfeel.lua",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "home/.config/hypr/monitors.lua",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
     }
   ],
   "exclude": [],
   "recipients": [],
-  "permissions": {}
+  "permissions": {
+    "home/.config/hypr/monitors.lua": 384
+  }
 }
