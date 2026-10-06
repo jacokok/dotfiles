@@ -1,6 +1,7 @@
-[history.origin]
-url = "git@github.com:jacokok/dotfiles.git"
-branch = "main"
+#This is invalid for global config
+#[history.origin]
+#url = "git@github.com:jacokok/dotfiles.git"
+#branch = "main"
 
 
 [bootstrap.services.mise-history]
