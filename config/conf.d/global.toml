@@ -3,3 +3,5 @@ url = "git@github.com:jacokok/dotfiles.git"
 branch = "main"
 
 
+[bootstrap.services.mise-history]
+builtin = "history-watch"
