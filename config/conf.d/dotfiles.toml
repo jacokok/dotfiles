@@ -6,8 +6,8 @@
 "~/.config/helix/config.toml" = { mode = "track", variants = [{ profile = "omarchy" }, { profile = "macos" }] }
 
 # Omarchy
-"~/.config/hypr/bindings.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
 "~/.config/hypr/autostart.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
+"~/.config/hypr/bindings.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
 "~/.config/hypr/hyprland.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
 "~/.config/hypr/input.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
 "~/.config/hypr/looknfeel.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
