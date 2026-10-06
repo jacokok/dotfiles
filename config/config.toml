@@ -25,5 +25,5 @@ url = "git@github.com:jacokok/dotfiles.git"
 branch = "main"
 
 [dotfiles]
-"~/.miserc.toml" = { mode = "track", variants = [{ profile = "omarchy" }] }
+"~/.miserc.toml" = { mode = "track", variants = [{ profile = "omarchy" }, { profile = "macos" }] }
 

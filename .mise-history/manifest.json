@@ -47,6 +47,11 @@
           "os": [],
           "profile": "omarchy",
           "default": false
+        },
+        {
+          "os": [],
+          "profile": "macos",
+          "default": false
         }
       ]
     }
