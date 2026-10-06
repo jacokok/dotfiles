@@ -1,26 +1,6 @@
 {
   "format": 1,
-  "enrollment": [
-    {
-      "path": "home/.config/helix/config.toml",
-      "autosave": true,
-      "encrypt": false,
-      "variants": [
-        {
-          "os": [],
-          "profile": "omarchy",
-          "default": false
-        },
-        {
-          "os": [
-            "linux"
-          ],
-          "profile": "omarchy",
-          "default": false
-        }
-      ]
-    }
-  ],
+  "enrollment": [],
   "exclude": [],
   "recipients": [],
   "permissions": {}
