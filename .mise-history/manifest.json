@@ -1,6 +1,38 @@
 {
   "format": 1,
-  "enrollment": [],
+  "enrollment": [
+    {
+      "path": "home/.config/foot/foot.ini",
+      "autosave": true,
+      "encrypt": false,
+      "variants": [
+        {
+          "os": [],
+          "profile": "omarchy",
+          "default": false
+        }
+      ]
+    },
+    {
+      "path": "home/.config/helix/config.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": [
+        {
+          "os": [],
+          "profile": "omarchy",
+          "default": false
+        },
+        {
+          "os": [
+            "macos"
+          ],
+          "profile": null,
+          "default": false
+        }
+      ]
+    }
+  ],
   "exclude": [],
   "recipients": [],
   "permissions": {}
