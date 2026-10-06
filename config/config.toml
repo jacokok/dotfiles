@@ -17,9 +17,5 @@ pnpm = "latest"
 [settings.upgrade]
 auto_prune = false
 
-[dotfiles]
-"~/.config/mise/.miserc.toml" = {}
-
 [settings]
 minimum_release_age_excludes = ["pi"]
-
