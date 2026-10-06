@@ -1,5 +1,5 @@
 [dotfiles]
-# "~/.config/mise/.miserc.toml" = { mode = "track", variants = [{ profile = "omarchy" }, { profile = "macos" }] }
+"~/.config/mise/.miserc.toml" = { mode = "track", variants = [{ profile = "omarchy" }, { profile = "macos" }] }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/mise/conf.d/dotfiles.toml" = { mode = "track" }
 "~/.config/mise/conf.d/global.toml" = { mode = "track" }

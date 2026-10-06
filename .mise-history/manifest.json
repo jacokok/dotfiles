@@ -2,6 +2,23 @@
   "format": 1,
   "enrollment": [
     {
+      "path": "config/.miserc.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": [
+        {
+          "os": [],
+          "profile": "omarchy",
+          "default": false
+        },
+        {
+          "os": [],
+          "profile": "macos",
+          "default": false
+        }
+      ]
+    },
+    {
       "path": "config/conf.d/dotfiles.toml",
       "autosave": true,
       "encrypt": false,
