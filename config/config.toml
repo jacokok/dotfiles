@@ -1,6 +1,7 @@
 [tools]
 agent-browser = "latest"
 aws-cli = { version = "latest", symlink_bins = "true" }
+claude = "latest"
 codex = "latest"
 dotnet = "latest"
 fnox = "latest"
