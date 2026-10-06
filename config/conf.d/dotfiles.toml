@@ -5,8 +5,8 @@
 "~/.config/mise/conf.d/global.toml" = { mode = "track" }
 "~/.config/helix/config.toml" = { mode = "track", variants = [{ profile = "omarchy" }, { profile = "macos" }] }
 
-# "~/.config/mise/conf.d/packages.omarchy.toml" = { mode = "track" }
-# "~/.config/mise/conf.d/packages.macos.toml" = { mode = "track" }
+"~/.config/mise/conf.d/packages/mise.omarchy.toml" = { mode = "track" }
+"~/.config/mise/conf.d/packages/mise.macos.toml" = { mode = "track" }
 
 # Omarchy
 "~/.config/hypr/autostart.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }

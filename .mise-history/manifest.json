@@ -31,6 +31,18 @@
       "variants": []
     },
     {
+      "path": "config/conf.d/packages/mise.macos.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "config/conf.d/packages/mise.omarchy.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "config/config.toml",
       "autosave": true,
       "encrypt": false,
