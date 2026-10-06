@@ -31,18 +31,6 @@
       "variants": []
     },
     {
-      "path": "config/conf.d/packages.macos.toml",
-      "autosave": true,
-      "encrypt": false,
-      "variants": []
-    },
-    {
-      "path": "config/conf.d/packages.omarchy.toml",
-      "autosave": true,
-      "encrypt": false,
-      "variants": []
-    },
-    {
       "path": "config/config.toml",
       "autosave": true,
       "encrypt": false,
