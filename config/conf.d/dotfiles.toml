@@ -4,3 +4,11 @@
 "~/.config/mise/conf.d/dotfiles.toml" = { mode = "track" }
 "~/.config/mise/conf.d/global.toml" = { mode = "track" }
 "~/.config/helix/config.toml" = { mode = "track", variants = [{ profile = "omarchy" }, { profile = "macos" }] }
+
+# Omarchy
+"~/.config/hypr/bindings.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
+"~/.config/hypr/autostart.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
+"~/.config/hypr/hyprland.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
+"~/.config/hypr/input.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
+"~/.config/hypr/looknfeel.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
+"~/.config/hypr/monitors.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
