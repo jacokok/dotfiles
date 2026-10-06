@@ -25,7 +25,5 @@ url = "git@github.com:jacokok/dotfiles.git"
 branch = "main"
 
 [dotfiles]
-"~/.config/mise/config.toml" = { mode = "track" }
-"~/.config/foot/foot.ini" = { mode = "track", variants = [{ profile = "omarchy" }] }
-"~/.config/helix/config.toml" = { mode = "track", variants = [{ profile = "omarchy" }, { os = "macos" }] }
+"~/.miserc.toml" = { mode = "track", variants = [{ profile = "omarchy" }] }
 

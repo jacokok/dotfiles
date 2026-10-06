@@ -37,6 +37,18 @@
           "default": false
         }
       ]
+    },
+    {
+      "path": "home/.miserc.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": [
+        {
+          "os": [],
+          "profile": "omarchy",
+          "default": false
+        }
+      ]
     }
   ],
   "exclude": [],
