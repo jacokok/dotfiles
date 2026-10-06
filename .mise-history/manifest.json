@@ -2,6 +2,18 @@
   "format": 1,
   "enrollment": [
     {
+      "path": "home/.config/helix/config.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": [
+        {
+          "os": [],
+          "profile": "omarchy",
+          "default": false
+        }
+      ]
+    },
+    {
       "path": "home/.dotfiles",
       "autosave": true,
       "encrypt": false,
