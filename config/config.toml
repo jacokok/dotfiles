@@ -20,10 +20,3 @@ auto_prune = false
 [settings]
 minimum_release_age_excludes = ["pi"]
 
-[history.origin]
-url = "git@github.com:jacokok/dotfiles.git"
-branch = "main"
-
-[dotfiles]
-"~/.miserc.toml" = { mode = "track", variants = [{ profile = "omarchy" }, { profile = "macos" }] }
-
