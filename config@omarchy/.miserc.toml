@@ -1,1 +1,3 @@
-/home/doink/.dotfiles/.config/mise/.miserc.toml
+env_conf_d = true
+# Test
+env = ["omarchy"]
