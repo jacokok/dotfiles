@@ -66,6 +66,12 @@
       ]
     },
     {
+      "path": "home/.config/herd/config.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.config/hypr/autostart.lua",
       "autosave": true,
       "encrypt": false,

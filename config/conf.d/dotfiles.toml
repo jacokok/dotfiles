@@ -4,6 +4,7 @@
 "~/.config/mise/conf.d/dotfiles.toml" = { mode = "track" }
 "~/.config/mise/conf.d/global.toml" = { mode = "track" }
 "~/.config/helix/config.toml" = { mode = "track", variants = [{ profile = "omarchy" }, { profile = "macos" }] }
+"~/.config/herd/config.toml" = { mode = "track" }
 
 "~/.config/mise/conf.d/packages/mise.omarchy.toml" = { mode = "track" }
 "~/.config/mise/conf.d/packages/mise.macos.toml" = { mode = "track" }
