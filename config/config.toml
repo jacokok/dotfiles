@@ -1,13 +1,11 @@
 [tools]
 agent-browser = "latest"
 aws-cli = { version = "latest", symlink_bins = "true" }
-claude = "latest"
 codex = "latest"
 dotnet = "latest"
 fnox = "latest"
 gh = "latest"
 node = "26.9.0"
-"npm:@xai-official/grok" = "latest"
 opencode = "latest"
 pi = "latest"
 pnpm = "latest"
