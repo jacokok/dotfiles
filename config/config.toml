@@ -9,7 +9,6 @@ gh = "latest"
 node = "26.9.0"
 opencode = "latest"
 pi = "latest"
-"pipx:hermes-agent" = { version = "latest", extras = "all" }
 pnpm = "latest"
 uv = "latest"
 
