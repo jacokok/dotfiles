@@ -10,6 +10,7 @@ node = "26.9.0"
 opencode = "latest"
 pi = "latest"
 pnpm = "latest"
+uv = "latest"
 
 [settings.upgrade]
 auto_prune = false
