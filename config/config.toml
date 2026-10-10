@@ -2,6 +2,7 @@
 agent-browser = "latest"
 aws-cli = { version = "latest", symlink_bins = "true" }
 codex = "latest"
+copilot = "latest"
 dotnet = "latest"
 fnox = "latest"
 gh = "latest"
