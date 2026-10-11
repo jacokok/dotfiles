@@ -5,6 +5,7 @@ aws-cli = { version = "latest", symlink_bins = "true" }
 dotnet = "latest"
 fnox = "latest"
 gh = "latest"
+"http:muse" = { version = "latest", url = "https://api.meta.ai/muse-launcher.sh", bin = "muse", version_list_url = "https://api.meta.ai/muse-code/channels/muse-stable", version_json_path = ".version" }
 node = "26.9.0"
 pi = "latest"
 pnpm = "latest"
