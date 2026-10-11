@@ -1,5 +1,6 @@
 [tools]
 agent-browser = "latest"
+"aqua:modem-dev/hunk" = "latest"
 aws-cli = { version = "latest", symlink_bins = "true" }
 dotnet = "latest"
 fnox = "latest"
