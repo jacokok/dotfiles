@@ -11,7 +11,7 @@ gh = "latest"
 "http:muse" = { version = "latest", url = "https://api.meta.ai/muse-launcher.sh", bin = "muse", version_list_url = "https://api.meta.ai/muse-code/channels/muse-stable", version_json_path = ".version" }
 node = "26.9.0"
 "npm:@xai-official/grok" = "latest"
-opencode = "latest"
+opencode = { version = "latest", allow_builds = ["@opencode/cli"] }
 pi = "latest"
 pnpm = "latest"
 uv = "latest"
