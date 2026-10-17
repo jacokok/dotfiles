@@ -9,9 +9,9 @@ dotnet = "latest"
 fnox = "latest"
 gh = "latest"
 "github:can1357/oh-my-pi" = "latest"
-"github:jacokok/step" = "0.1.0"
+"github:jacokok/step" = "0.2.0"
 "http:muse" = { version = "latest", url = "https://api.meta.ai/muse-launcher.sh", bin = "muse", version_list_url = "https://api.meta.ai/muse-code/channels/muse-stable", version_json_path = ".version" }
-node = "26.9.0"
+node = "26.12.0"
 "npm:@xai-official/grok" = "latest"
 opencode = { version = "latest", allow_builds = ["@opencode/cli"] }
 pi = "latest"
