@@ -22,4 +22,4 @@ uv = "latest"
 auto_prune = false
 
 [settings]
-minimum_release_age_excludes = ["pi"]
+minimum_release_age_excludes = ["pi", "github:jacokok/*"]
