@@ -10,6 +10,7 @@ dotnet = "latest"
 fnox = "latest"
 gemini = { version = "latest", allow_builds = ["@github/keytar", "node-pty"] }
 gh = "latest"
+"github:agavra/tuicr" = "latest"
 "github:can1357/oh-my-pi" = "latest"
 "github:jacokok/step" = "0.2.0"
 "http:muse" = { version = "latest", url = "https://api.meta.ai/muse-launcher.sh", bin = "muse", version_list_url = "https://api.meta.ai/muse-code/channels/muse-stable", version_json_path = ".version" }
