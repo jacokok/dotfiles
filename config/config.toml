@@ -5,13 +5,11 @@ dotnet = "latest"
 fnox = "latest"
 "github:agavra/tuicr" = "latest"
 "github:jacokok/step" = "0.2.0"
-node = "latest"
 "npm:donsetch" = "latest"
 pnpm = "latest"
 uv = "latest"
 
 [settings.upgrade]
-auto_prune = false
 
 [settings]
 minimum_release_age_excludes = ["pi", "github:jacokok/step"]
