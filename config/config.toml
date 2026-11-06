@@ -15,7 +15,6 @@ gh = "latest"
 "github:jacokok/step" = "0.2.0"
 "http:muse" = { version = "latest", url = "https://api.meta.ai/muse-launcher.sh", bin = "muse", version_list_url = "https://api.meta.ai/muse-code/channels/muse-stable", version_json_path = ".version" }
 node = "latest"
-"npm:@xai-official/grok" = "latest"
 "npm:donsetch" = "latest"
 opencode = { version = "latest", allow_builds = ["@opencode/cli"] }
 pi = "latest"
