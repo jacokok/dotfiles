@@ -1,5 +1,8 @@
 [dotfiles]
-"~/.config/mise/.miserc.toml" = { mode = "track", variants = [{ profile = "omarchy" }, { profile = "macos" }] }
+"~/.config/mise/miserc.toml" = { mode = "track", variants = [
+  { profile = "omarchy" },
+  { profile = "macos" },
+] }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/mise/conf.d/dotfiles.toml" = { mode = "track" }
 "~/.config/mise/conf.d/global.toml" = { mode = "track" }
@@ -10,14 +13,29 @@
 "~/.config/herd/config.toml" = { mode = "track" }
 
 # Omarchy
-"~/.config/hypr/autostart.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
-"~/.config/hypr/bindings.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
-"~/.config/hypr/hyprland.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
-"~/.config/hypr/input.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
-"~/.config/hypr/looknfeel.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
-"~/.config/hypr/monitors.lua" = { mode = "track", variants = [{ profile = "omarchy" }] }
+"~/.config/hypr/autostart.lua" = { mode = "track", variants = [
+  { profile = "omarchy" },
+] }
+"~/.config/hypr/bindings.lua" = { mode = "track", variants = [
+  { profile = "omarchy" },
+] }
+"~/.config/hypr/hyprland.lua" = { mode = "track", variants = [
+  { profile = "omarchy" },
+] }
+"~/.config/hypr/input.lua" = { mode = "track", variants = [
+  { profile = "omarchy" },
+] }
+"~/.config/hypr/looknfeel.lua" = { mode = "track", variants = [
+  { profile = "omarchy" },
+] }
+"~/.config/hypr/monitors.lua" = { mode = "track", variants = [
+  { profile = "omarchy" },
+] }
 
 # MacOS
 
 # Unique
-"~/.config/helix/config.toml" = { mode = "track", variants = [{ profile = "omarchy" }, { profile = "macos" }] }
+"~/.config/helix/config.toml" = { mode = "track", variants = [
+  { profile = "omarchy" },
+  { profile = "macos" },
+] }
