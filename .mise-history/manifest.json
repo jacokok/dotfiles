@@ -146,7 +146,5 @@
   ],
   "exclude": [],
   "recipients": [],
-  "permissions": {
-    "home@omarchy/.config/hypr/monitors.lua": 384
-  }
+  "permissions": {}
 }
