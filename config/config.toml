@@ -6,19 +6,15 @@ dotnet = { version = "latest", minimum_release_age = "0s" }
 fnox = { version = "latest", lazy = true, minimum_release_age = "0s" }
 gh = { version = "latest", minimum_release_age = "0s" }
 ghui = { version = "latest", lazy = true, minimum_release_age = "0s" }
-
-
-"npm:donsetch" = "latest"
+"npm:donsetch" = { version = "latest", minimum_release_age = "0s" }
 pnpm = { version = "latest", minimum_release_age = "0s" }
 
-
-hunk = { version = "latest", lazy = true, minimum_release_age = "0s" }
-node = { version = "latest", lazy = true, minimum_release_age = "0s" }
+hunk = { version = "latest", minimum_release_age = "0s" }
+node = { version = "latest", minimum_release_age = "0s" }
 opencode = { version = "latest", lazy = true, auto_update = "4h", minimum_release_age = "0s" }
-pi = { version = "latest", lazy = true, auto_update = "4h", minimum_release_age = "0s" }
+pi = { version = "latest", auto_update = "4h", minimum_release_age = "0s" }
 # playwright = { version = "latest", lazy = true, minimum_release_age = "0s" }
 uv = { version = "latest", lazy = true, minimum_release_age = "0s" }
-
 
 # Temp
 "github:jacokok/step" = { version = "latest", minimum_release_age = "0s" }
