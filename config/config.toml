@@ -7,7 +7,7 @@ fnox = "latest"
 gh = { version = "latest", lazy = true, minimum_release_age = "0s" }
 ghui = { version = "latest", lazy = true, minimum_release_age = "0s" }
 "github:agavra/tuicr" = "latest"
-"github:jacokok/step" = { version = "latest", lazy = true, minimum_release_age = "0s" }
+"github:jacokok/step" = { version = "latest", minimum_release_age = "0s" }
 "npm:donsetch" = "latest"
 pnpm = "latest"
 uv = "latest"
