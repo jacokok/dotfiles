@@ -6,6 +6,7 @@ fnox = "latest"
 "github:agavra/tuicr" = "latest"
 "github:jacokok/step" = "0.2.0"
 "npm:donsetch" = "latest"
+pi = "latest"
 pnpm = "latest"
 uv = "latest"
 
