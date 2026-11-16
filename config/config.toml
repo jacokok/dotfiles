@@ -14,7 +14,7 @@ pnpm = "latest"
 uv = "latest"
 
 
-# hunk = { version = "latest", lazy = true, minimum_release_age = "0s" }
+hunk = { version = "latest", lazy = true, minimum_release_age = "0s" }
 # node = { version = "latest", lazy = true, minimum_release_age = "0s" }
 # opencode = { version = "latest", lazy = true, auto_update = "4h", minimum_release_age = "0s" }
 # pi = { version = "latest", lazy = true, auto_update = "4h", minimum_release_age = "0s" }
