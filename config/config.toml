@@ -9,7 +9,7 @@ ghui = { version = "latest", lazy = true, minimum_release_age = "0s" }
 "github:agavra/tuicr" = "latest"
 "github:jacokok/step" = { version = "latest", minimum_release_age = "0s" }
 "npm:donsetch" = "latest"
-pnpm = "latest"
+pnpm = { version = "latest", minimum_release_age = "0s" }
 
 
 hunk = { version = "latest", lazy = true, minimum_release_age = "0s" }
