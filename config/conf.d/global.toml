@@ -1,8 +1,2 @@
-#This is invalid for global config
-#[history.origin]
-#url = "git@github.com:jacokok/dotfiles.git"
-#branch = "main"
-
-
 [bootstrap.services.mise-history]
 builtin = "history-watch"
