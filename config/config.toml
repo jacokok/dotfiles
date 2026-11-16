@@ -1,10 +1,10 @@
 [tools]
 agent-browser = "latest"
-aws-cli = { version = "latest", symlink_bins = "true" }
+aws-cli = { version = "latest", lazy = true, symlink_bins = "true" }
 codex = { version = "latest", lazy = true, auto_update = "4h", minimum_release_age = "0s" }
-dotnet = "latest"
-fnox = "latest"
-gh = { version = "latest", lazy = true, minimum_release_age = "0s" }
+dotnet = { version = "latest", minimum_release_age = "0s" }
+fnox = { version = "latest", lazy = true, minimum_release_age = "0s" }
+gh = { version = "latest", minimum_release_age = "0s" }
 ghui = { version = "latest", lazy = true, minimum_release_age = "0s" }
 "github:agavra/tuicr" = "latest"
 "github:jacokok/step" = { version = "latest", minimum_release_age = "0s" }
