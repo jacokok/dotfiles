@@ -9,7 +9,6 @@ ghui = { version = "latest", lazy = true, minimum_release_age = "0s" }
 "github:agavra/tuicr" = "latest"
 "github:jacokok/step" = "0.2.0"
 "npm:donsetch" = "latest"
-pi = "latest"
 pnpm = "latest"
 uv = "latest"
 
@@ -17,7 +16,7 @@ uv = "latest"
 hunk = { version = "latest", lazy = true, minimum_release_age = "0s" }
 # node = { version = "latest", lazy = true, minimum_release_age = "0s" }
 # opencode = { version = "latest", lazy = true, auto_update = "4h", minimum_release_age = "0s" }
-# pi = { version = "latest", lazy = true, auto_update = "4h", minimum_release_age = "0s" }
+pi = { version = "latest", lazy = true, auto_update = "4h", minimum_release_age = "0s" }
 # playwright = { version = "latest", lazy = true, minimum_release_age = "0s" }
 # uv = { version = "latest", lazy = true, minimum_release_age = "0s" }
 
