@@ -1,2 +1,3 @@
 [bootstrap.packages]
 "aur:zed-bin" = "latest"
+#ai-usagebar-bin
