@@ -6,8 +6,8 @@ dotnet = { version = "latest", minimum_release_age = "0s" }
 fnox = { version = "latest", lazy = true, minimum_release_age = "0s" }
 gh = { version = "latest", minimum_release_age = "0s" }
 ghui = { version = "latest", lazy = true, minimum_release_age = "0s" }
-"github:agavra/tuicr" = "latest"
-"github:jacokok/step" = { version = "latest", minimum_release_age = "0s" }
+
+
 "npm:donsetch" = "latest"
 pnpm = { version = "latest", minimum_release_age = "0s" }
 
@@ -18,6 +18,11 @@ opencode = { version = "latest", lazy = true, auto_update = "4h", minimum_releas
 pi = { version = "latest", lazy = true, auto_update = "4h", minimum_release_age = "0s" }
 # playwright = { version = "latest", lazy = true, minimum_release_age = "0s" }
 uv = { version = "latest", lazy = true, minimum_release_age = "0s" }
+
+
+# Temp
+"github:jacokok/step" = { version = "latest", minimum_release_age = "0s" }
+"github:agavra/tuicr" = "latest"
 
 [settings]
 locked_scopes = ["project", "global"]
