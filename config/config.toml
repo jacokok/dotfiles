@@ -1,6 +1,7 @@
 [tools]
 agent-browser = "latest"
 aws-cli = { version = "latest", symlink_bins = "true" }
+codex = { version = "latest", lazy = true, auto_update = "4h", minimum_release_age = "0s" }
 dotnet = "latest"
 fnox = "latest"
 "github:agavra/tuicr" = "latest"
@@ -10,7 +11,8 @@ pi = "latest"
 pnpm = "latest"
 uv = "latest"
 
-[settings.upgrade]
-
 [settings]
+locked_scopes = ["project", "global"]
+system_installs_dir = "~/.local/share/mise/installs"
+system_shims_dir = "~/.local/share/mise/shims"
 minimum_release_age_excludes = ["pi", "github:jacokok/step"]
