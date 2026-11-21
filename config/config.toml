@@ -1,17 +1,21 @@
 [tools]
 agent-browser = "latest"
-aws-cli = { version = "latest", symlink_bins = "true" }
-codex = "latest"
-dotnet = "latest"
-fnox = "latest"
-gh = "latest"
-node = "26.9.0"
-opencode = "latest"
-pi = "latest"
-pnpm = "latest"
+aws-cli = { version = "latest", lazy = true, symlink_bins = "true" }
+codex = { version = "latest", lazy = true, auto_update = "4h", minimum_release_age = "0s" }
+dotnet = { version = "latest", minimum_release_age = "0s" }
+fnox = { version = "latest", lazy = true, minimum_release_age = "0s" }
+gh = { version = "latest", minimum_release_age = "0s" }
+ghui = { version = "latest", lazy = true, minimum_release_age = "0s" }
+"npm:donsetch" = { version = "latest", minimum_release_age = "0s" }
+pnpm = { version = "latest", minimum_release_age = "0s" }
 
-[settings.upgrade]
-auto_prune = false
+hunk = { version = "latest", minimum_release_age = "0s" }
+node = { version = "latest", minimum_release_age = "0s" }
+opencode = { version = "latest", lazy = true, auto_update = "4h", minimum_release_age = "0s" }
+pi = { version = "latest", auto_update = "4h", minimum_release_age = "0s" }
+# playwright = { version = "latest", lazy = true, minimum_release_age = "0s" }
+uv = { version = "latest", lazy = true, minimum_release_age = "0s" }
 
-[settings]
-minimum_release_age_excludes = ["pi"]
+# Temp
+"github:jacokok/step" = { version = "latest", minimum_release_age = "0s" }
+"github:agavra/tuicr" = "latest"
